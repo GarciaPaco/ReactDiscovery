@@ -1,0 +1,37 @@
+.header-navbar {
+    background: #283b62;
+    width: 100%;
+    height: 100px;
+
+}
+.header-navbar ul
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin:10px;
+    padding: 0;
+}
+.header-navbar li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header-navbar a {
+    color: white;
+    text-decoration: none;
+}
+.header-navbar a:hover {
+    color: royalblue;
+}
